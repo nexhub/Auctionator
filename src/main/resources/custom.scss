@@ -1,0 +1,7 @@
+@mixin custom {
+  @include valo;
+  
+  .v-textfield-color1 {
+    @include valo-textfield-style($background-color: #5d73c0);
+  }
+  
