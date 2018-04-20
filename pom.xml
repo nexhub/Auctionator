@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>projekt2n40</groupId>
-	<artifactId>Auctionator</artifactId>
+	<artifactId>auctionator</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
 
 	<name>Auctionator</name>
-	<description></description>
+	<description>A web application for auctioning a common monetary cost</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

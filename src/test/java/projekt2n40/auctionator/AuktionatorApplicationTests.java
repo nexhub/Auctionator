@@ -1,4 +1,4 @@
-package projekt2n40.Auktionator;
+package projekt2n40.auctionator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package projekt2n40.Auktionator;
+package projekt2n40.auctionator;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
