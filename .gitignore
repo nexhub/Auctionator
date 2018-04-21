@@ -1,3 +1,6 @@
+.*
+!/.gitignore
+
 # Binaries
 *.7z
 *.dmg
@@ -41,4 +44,3 @@ release.properties
 pom.xml.releaseBackup
 pom.xml.tag
 hs_err_pid*
-/.springBeans
