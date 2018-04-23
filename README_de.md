@@ -27,7 +27,7 @@ Zum Beispiel f&uuml;r eine Mietversteigerung.
 ---
 ## Benutzung
 
-* Download: [https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator-0.1.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator-0.1.jar)
+* Download: [https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar)
 
 
 * Auktions-Datei (sqlite) erstellen
