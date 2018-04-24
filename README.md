@@ -17,36 +17,37 @@ Is a web application for auctioning a given sum among a group of people.
 ---
 ## Useage
 
-# Download
+### Download
 
 [https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar)
-* Create auction file (sqlite)
 
-  with: `java -jar auctionator.jar $db_file_name CREATE $money_goal $person1 $person2 $personX`
-  
-  e.g.: `java -jar auctionator.jar auction1.db CREATE 5000 Anne Max 'Alex P.'`
-  
-  This creates in the current directory an auction file named Auktion1.db for 3 bidders with the goal to find 5000 Euro.
-  
-* Start the Web application with: 
+### Create auction file
 
-  `java[-Dserver.port=PORT] -jar auctionator.jar $db_file_name START`
+with: `java -jar auctionator.jar $db_file_name CREATE $money_goal $person1 $person2 $personX`
   
-  Specifying one port is optional. Default is 10042, so the above example is started with: 
+e.g.: `java -jar auctionator.jar auction1.db CREATE 5000 Anne Max 'Alex P.'`
   
-  `java -jar auctionator.jar auction1.db START`
+This creates in the current directory an auction file named Auktion1.db for 3 bidders with the goal to find 5000 Euro.
   
-* Calling the Web application
+### Start the Web application
+
+with: `java[-Dserver.port=PORT] -jar auctionator.jar $db_file_name START`
   
-  Call `http://$servername:$port/auction/` in the browser.
+Specifying a port is optional. Default is 10042, so the above example is started with: 
   
-  For our example: `http://localhost:10042/auction/`
+`java -jar auctionator.jar auction1.db START`
   
-  Individuals can then place their bids there 
+### Opening the Web application
   
-  The last bid always ends the current round and creates a new one.
+Open `http://$servername:$port/auction/` in your browser.
   
-  The "ich bin neugierig" button reveals the bids of the other people
+For our example: `http://localhost:10042/auction/`
+  
+Individuals can now place their bids there 
+  
+The last bid always ends the current round and creates a new one.
+  
+The "ich bin neugierig" button reveals the bids of the other people
   
 ---
 ## Hints for developers
