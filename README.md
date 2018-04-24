@@ -47,8 +47,4 @@ Is a web application for auctioning a given sum among a group of people.
 ---
 ## Hints for developers
 
-* It's a[Maven](https://maven.apache.org/) project  
-
-
-
-Translated with www.DeepL.com/Translator
+* It's a [Maven](https://maven.apache.org/) project  
