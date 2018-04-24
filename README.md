@@ -7,15 +7,11 @@ Is a web application for auctioning a given sum among a group of people.
 ---
 ## Notes
 
-[[Java](https://java.com/de/download)] in version 8 or higher is required.
-
-The web application was developed especially for a rental auction in a [[Mietshaeuser Syndikat](https://www.syndikat.org)] housing project. 
-
-No attention has been paid to universal readiness or comprehensive documentation.
-
-Subsequent editing of an auction is not intended. Manipulating the SQLite auction file with an external tool (e.g. [[SQLiteBrowser](http://sqlitebrowser.org/)]) is of course possible.
-
-See for yourself if it's useful. Feel free to help us develop it further.
+* [[Java](https://java.com/de/download)] in version 8 or higher is required.
+* The web application was developed especially for a rental auction in a [[Mietshaeuser Syndikat](https://www.syndikat.org)] housing project. 
+* No attention has been paid to universal readiness or comprehensive documentation.
+* Subsequent editing of an auction is not intended. Manipulating the SQLite auction file with an external tool (e.g. [[SQLiteBrowser](http://sqlitebrowser.org/)]) is of course possible.
+* See for yourself if it's useful. Feel free to help us develop it further.
 
 
 ---
