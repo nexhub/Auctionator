@@ -2,7 +2,7 @@
 
 [[deutsche Version](./README_de.md)]
 
-Is a web application for auctioning a given sum among a group of people. I
+Is a web application for auctioning a given sum among a group of people. 
 
 ---
 ## Notes
@@ -13,16 +13,15 @@ The web application was developed especially for a rental auction in a [[Mietsha
 
 No attention has been paid to universal readiness or comprehensive documentation.
 
-Subsequent editing of an auction is not intended. Manipulating the SQLite auction file with an external tool (e.g. [[SQLiteBrowser](http://sqlitebrowser.org/)]) is of course possible
+Subsequent editing of an auction is not intended. Manipulating the SQLite auction file with an external tool (e.g. [[SQLiteBrowser](http://sqlitebrowser.org/)]) is of course possible.
 
-
-See if you can make sense of it. We are happy to develop it further. Have fun with that. ;)
+See for yourself if it's useful. Feel free to help us develop it further.
 
 
 ---
 ## Use
 
-* Download: [https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar)
+* Download: [[https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar)]
 
 
 Create auction file (sqlite)
