@@ -15,7 +15,7 @@ Is a web application for auctioning a given sum among a group of people.
 
 
 ---
-## Use
+## Useage
 
 * Download: [https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar)
 * Create auction file (sqlite)
@@ -43,6 +43,8 @@ Is a web application for auctioning a given sum among a group of people.
   Individuals can then place their bids there 
   
   The last bid always ends the current round and creates a new one.
+  
+  The "ich bin neugierig" button reveals the bids of the other people
   
 ---
 ## Hints for developers
