@@ -19,7 +19,8 @@ Is a web application for auctioning a given sum among a group of people.
 
 * Download: [https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar)
 * Create auction file (sqlite)
-** with: `java -jar auctionator.jar $db_file_name CREATE $money_goal $person1 $person2 $personX`
+
+  * with: `java -jar auctionator.jar $db_file_name CREATE $money_goal $person1 $person2 $personX`
   
   e.g.: `java -jar auctionator.jar auction1.db CREATE 5000 Anne Max 'Alex P.'`
   
