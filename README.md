@@ -20,19 +20,19 @@ Is a web application for auctioning a given sum among a group of people.
 * Download: [https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar](https://github.com/qdev/Auctionator/releases/download/v0.1/auctionator.jar)
 * Create auction file (sqlite)
 
-  * with: `java -jar auctionator.jar $db_file_name CREATE $money_goal $person1 $person2 $personX`
+  with: `java -jar auctionator.jar $db_file_name CREATE $money_goal $person1 $person2 $personX`
   
   e.g.: `java -jar auctionator.jar auction1.db CREATE 5000 Anne Max 'Alex P.'`
   
   This creates in the current directory an auction file named Auktion1.db for 3 bidders with the goal to find 5000 Euro.
   
-* Start the Web application
+* Start the Web application with: 
+
+  `java[-Dserver.port=PORT] -jar auctionator.jar $db_file_name START`
   
-  with: `java[-Dserver.port=PORT] -jar auctionator.jar $db_file_name START`
+  Specifying one port is optional. Default is 10042, so the above example is started with: 
   
-  Specifying one port is optional. Default is 10042, so the above example is started
-  
-  with: `java -jar auctionator.jar auction1.db START`
+  `java -jar auctionator.jar auction1.db START`
   
 * Calling the Web application
   
