@@ -1,6 +1,6 @@
 # Auctionator
 
-[[deutsche Version](./README_de.md)]
+[deutsche Version(./README_de.md)]
 
 Is a web application for auctioning a given sum among a group of people. 
 
