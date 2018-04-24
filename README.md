@@ -28,7 +28,7 @@ Is a web application for auctioning a given sum among a group of people.
   
 * Start the Web application
   
-  with: `java[-Dserver.port=PORT] -jar auctionator.jar` **FILE NAME** `START`
+  with: `java[-Dserver.port=PORT] -jar auctionator.jar $db_file_name START`
   
   Specifying one port is optional. Default is 10042, so the above example is started
   
@@ -36,7 +36,7 @@ Is a web application for auctioning a given sum among a group of people.
   
 * Calling the Web application
   
-  Call `http://`**SERVERNAME**`:`**PORT**`/auction/` in the browser.
+  Call `http://$servername:$port/auction/` in the browser.
   
   For our example: `http://localhost:10042/auction/`
   
